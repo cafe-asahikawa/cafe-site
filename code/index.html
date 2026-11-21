@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>カフェ サンプル（仮）</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <a class="logo" href="#top">cafe sample（仮）</a>
+    <nav>
+      <a href="#concept">concept</a>
+      <a href="#menu">menu</a>
+      <a href="#calendar">calendar</a>
+      <a href="#blog">blog</a>
+      <a href="#access">access</a>
+    </nav>
+  </header>
+
+  <!-- ① 左に文字とボタン、右に画像（4枚が時間で切り替わる） -->
+  <section id="top" class="hero">
+    <div class="hero-text">
+      <h1>a slow cup,<br>a good <span class="accent">＊</span><br>moment.</h1>
+      <p class="sub">ここにキャッチコピー（仮）</p>
+      <div class="buttons">
+        <a class="btn-line" href="#menu"><span>menu</span><i>→</i></a>
+        <a class="btn-line" href="#access"><span>access</span><i>→</i></a>
+      </div>
+    </div>
+    <div class="slideshow" aria-label="お店の写真（仮）">
+      <img src="images/hero1.svg" alt="店内の写真（仮）">
+      <img src="images/hero2.svg" alt="コーヒーの写真（仮）">
+      <img src="images/hero3.svg" alt="外観の写真（仮）">
+      <img src="images/hero4.svg" alt="スイーツの写真（仮）">
+    </div>
+  </section>
+
+  <!-- ② コンセプト（言葉） -->
+  <section id="concept" class="block center">
+    <h2>our concept</h2>
+    <p class="lead">ここにお店のコンセプトを一行で（仮）</p>
+    <p>ここにお店の紹介文が入ります（仮）。お店を始めたきっかけ、こだわり、雰囲気などを書きます。友達のカフェの想いを聞いて、差し替えましょう。</p>
+  </section>
+
+  <!-- ③ 3つのカード -->
+  <section class="block">
+    <h2 class="center">enjoy our cafe</h2>
+    <div class="cards">
+      <article class="card"><img src="images/menu1.svg" alt="コーヒー（仮）"><h3>coffee</h3><p>こだわりのコーヒー（仮）</p></article>
+      <article class="card"><img src="images/menu2.svg" alt="スイーツ（仮）"><h3>sweets</h3><p>手作りスイーツ（仮）</p></article>
+      <article class="card"><img src="images/menu3.svg" alt="ランチ（仮）"><h3>lunch</h3><p>日替わりランチ（仮）</p></article>
+    </div>
+  </section>
+
+  <!-- ④ メニュー -->
+  <section id="menu" class="block narrow">
+    <h2>menu</h2>
+    <ul class="menu-list">
+      <li><span>ブレンドコーヒー（仮）</span><span>000円</span></li>
+      <li><span>カフェラテ（仮）</span><span>000円</span></li>
+      <li><span>ケーキセット（仮）</span><span>000円</span></li>
+      <li><span>日替わりランチ（仮）</span><span>000円</span></li>
+    </ul>
+  </section>
+
+  <!-- ⑤ 営業日カレンダー -->
+  <section id="calendar" class="block narrow">
+    <h2>calendar</h2>
+    <p>営業日：土曜・日曜（仮）。色のついた日が営業日です。臨時休業は、お知らせします。</p>
+    <div id="calendar-box"></div>
+    <ul class="cal-legend">
+      <li><span class="dot open"></span>営業日</li>
+      <li><span class="dot off"></span>休業日</li>
+      <li><span class="dot closed"></span>臨時休業</li>
+    </ul>
+  </section>
+
+  <!-- ⑥ ブログ -->
+  <section id="blog" class="block narrow">
+    <h2>blog</h2>
+    <ul class="blog-list">
+      <li><time>2026.00.00</time><a href="#">ブログ記事のタイトル（仮）</a></li>
+      <li><time>2026.00.00</time><a href="#">ブログ記事のタイトル（仮）</a></li>
+      <li><time>2026.00.00</time><a href="#">ブログ記事のタイトル（仮）</a></li>
+    </ul>
+  </section>
+
+  <!-- ⑥ 営業時間・場所 -->
+  <section id="access" class="block narrow">
+    <h2>access</h2>
+    <dl class="info">
+      <dt>店名</dt><dd>カフェ サンプル（仮）</dd>
+      <dt>住所</dt><dd>〒000-0000 東京都○○区○○ 0-0-0（仮）</dd>
+      <dt>営業時間</dt><dd>00:00〜00:00（仮）</dd>
+      <dt>定休日</dt><dd>○曜日（仮）</dd>
+      <dt>電話</dt><dd>00-0000-0000（仮）</dd>
+    </dl>
+    <div class="map">地図（Googleマップの埋め込みをここに入れます）</div>
+  </section>
+
+  <footer>
+    <p>follow us：Instagram（仮） / X（仮）</p>
+    <p>&copy; カフェ サンプル（仮）</p>
+  </footer>
+  <script src="calendar.js"></script>
+</body>
+</html>
