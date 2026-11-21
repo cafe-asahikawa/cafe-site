@@ -1,0 +1,3 @@
+# Claude用のファイルはGit管理外（公開しない）
+.claude/
+CLAUDE.md
